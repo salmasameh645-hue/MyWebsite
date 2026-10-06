@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <!-- Navigation Links -->
+    <nav>
+        <a href="#">Home</a> | 
+        <a href="#">About Us</a> | 
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <!-- Main Heading -->
+    <h1 style="color: red;">Contact Us</h1>
+
+    <!-- Form Section -->
+    <form action="#" method="POST">
+        
+        <!-- Full Name -->
+        <p>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+        </p>
+
+        <!-- Email Address -->
+        <p>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <!-- Phone Number -->
+        <p>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+        </p>
+
+        <!-- Date of Birth -->
+        <p>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </p>
+
+        <!-- Gender -->
+        <p>
+            Gender:<br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </p>
+
+        <!-- Interests -->
+        <p>
+            Interests:<br>
+            <input type="checkbox" id="coding" name="interests" value="Coding">
+            <label for="coding">Coding</label>
+            
+            <input type="checkbox" id="design" name="interests" value="Design">
+            <label for="design">Design</label>
+        </p>
+
+        <!-- Country -->
+        <p>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="Egypt" selected>Egypt</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select>
+        </p>
+
+        <!-- Your Message -->
+        <p>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+        </p>
+
+        <!-- Submit Button -->
+        <p>
+            <button type="submit">Send Message</button>
+        </p>
+
+    </form>
+
+</body>
+</html>
